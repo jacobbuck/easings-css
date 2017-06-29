@@ -1,4 +1,4 @@
-# css-easings
+# easings-css
 
 [Easing functions](http://easings.net/) for CSS.
 

@@ -1,5 +1,5 @@
 {
-  "name": "css-easings",
+  "name": "easings-css",
   "version": "1.0.0",
   "description": "Easing functions for CSS.",
   "main": "easings.json",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jacobbuck/css-easings.git"
+    "url": "git+https://github.com/jacobbuck/easings-css.git"
   },
   "keywords": [
     "animation",
@@ -23,7 +23,7 @@
   "author": "Jacob Buck <buck.jacob@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jacobbuck/css-easings/issues"
+    "url": "https://github.com/jacobbuck/easings-css/issues"
   },
-  "homepage": "https://github.com/jacobbuck/css-easings#readme"
+  "homepage": "https://github.com/jacobbuck/easings-css#readme"
 }
