@@ -1,0 +1,29 @@
+{
+  "name": "css-easings",
+  "version": "1.0.0",
+  "description": "Easing functions for CSS.",
+  "main": "easings.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobbuck/css-easings.git"
+  },
+  "keywords": [
+    "animation",
+    "css",
+    "easings",
+    "less",
+    "sass",
+    "scss",
+    "timing-function",
+    "transition"
+  ],
+  "author": "Jacob Buck <buck.jacob@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobbuck/css-easings/issues"
+  },
+  "homepage": "https://github.com/jacobbuck/css-easings#readme"
+}
