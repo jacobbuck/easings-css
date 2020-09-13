@@ -76,7 +76,7 @@ You can also import individual easings for better tree-shaking:
 import { easeOutQuad } from 'easings-css';
 ```
 
-## API
+## Easings
 
 ### easeInSine
 
