@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "Easing functions for CSS.",
   "main": "index.json",
+  "module": "index.js",
+  "files": [
+    "_index.scss",
+    "index.css",
+    "index.js",
+    "index.json",
+    "index.less"
+  ]
   "scripts": {
     "build": "node ./build",
     "format": "prettier --write .",
