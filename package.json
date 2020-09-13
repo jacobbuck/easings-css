@@ -1,7 +1,7 @@
 {
   "name": "easings-css",
   "version": "1.0.0",
-  "description": "Easing functions for CSS.",
+  "description": "Provides easing functions for CSS.",
   "main": "index.json",
   "module": "index.js",
   "files": [

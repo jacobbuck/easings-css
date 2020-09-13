@@ -1,5 +1,5 @@
 # easings-css
 
-[Easing functions](http://easings.net/) for CSS.
+Provides [easing functions](http://easings.net/) for CSS.
 
-Provided in the form of CSS Custom Properties, JSON, and Less and Sass variables.
+Available as CSS Custom Properties, JSON object, and JavaScript, Less and Sass variables.
