@@ -10,7 +10,7 @@
     "index.js",
     "index.json",
     "index.less"
-  ]
+  ],
   "scripts": {
     "build": "node ./build",
     "format": "prettier --write .",
