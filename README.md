@@ -80,7 +80,7 @@ import { easeOutQuad } from 'easings-css';
 
 ### easeInSine
 
-[`cubic-bezier(0.47, 0, 0.745, 0.715)`](https://cubic-bezier.com/#0.47,0,0.745,0.715)
+[`cubic-bezier(0.47, 0, 0.745, 0.715)`](https://cubic-bezier.com/#.47,0,.745,.715)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -88,7 +88,7 @@ import { easeOutQuad } from 'easings-css';
 
 ### easeOutSine
 
-[`cubic-bezier(0.39, 0.575, 0.565, 1)`](https://cubic-bezier.com/#0.39,0.575,0.565,1)
+[`cubic-bezier(0.39, 0.575, 0.565, 1)`](https://cubic-bezier.com/#.39,.575,.565,1)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -96,7 +96,7 @@ import { easeOutQuad } from 'easings-css';
 
 ### easeInOutSine
 
-[`cubic-bezier(0.445, 0.05, 0.55, 0.95)`](https://cubic-bezier.com/#0.445,0.05,0.55,0.95)
+[`cubic-bezier(0.445, 0.05, 0.55, 0.95)`](https://cubic-bezier.com/#.445,.05,.55,.95)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -104,7 +104,7 @@ import { easeOutQuad } from 'easings-css';
 
 ### easeInQuad
 
-[`cubic-bezier(0.55, 0.085, 0.68, 0.53)`](https://cubic-bezier.com/#0.55,0.085,0.68,0.53)
+[`cubic-bezier(0.55, 0.085, 0.68, 0.53)`](https://cubic-bezier.com/#.55,.085,.68,.53)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -112,7 +112,7 @@ import { easeOutQuad } from 'easings-css';
 
 ### easeOutQuad
 
-[`cubic-bezier(0.25, 0.46, 0.45, 0.94)`](https://cubic-bezier.com/#0.25,0.46,0.45,0.94)
+[`cubic-bezier(0.25, 0.46, 0.45, 0.94)`](https://cubic-bezier.com/#.25,.46,.45,.94)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -120,7 +120,7 @@ import { easeOutQuad } from 'easings-css';
 
 ### easeInOutQuad
 
-[`cubic-bezier(0.455, 0.03, 0.515, 0.955)`](https://cubic-bezier.com/#0.455,0.03,0.515,0.955)
+[`cubic-bezier(0.455, 0.03, 0.515, 0.955)`](https://cubic-bezier.com/#.455,.03,.515,.955)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -128,7 +128,7 @@ import { easeOutQuad } from 'easings-css';
    
 ### easeInCubic
 
-[`cubic-bezier(0.55, 0.055, 0.675, 0.19)`](https://cubic-bezier.com/#0.55,0.055,0.675,0.19)
+[`cubic-bezier(0.55, 0.055, 0.675, 0.19)`](https://cubic-bezier.com/#.55,.055,.675,.19)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -136,7 +136,7 @@ import { easeOutQuad } from 'easings-css';
 
 ### easeOutCubic
 
-[`cubic-bezier(0.215, 0.61, 0.355, 1)`](https://cubic-bezier.com/#0.215,0.61,0.355,1)
+[`cubic-bezier(0.215, 0.61, 0.355, 1)`](https://cubic-bezier.com/#.215,.61,.355,1)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -144,7 +144,7 @@ import { easeOutQuad } from 'easings-css';
 
 ### easeInOutCubic
 
-[`cubic-bezier(0.645, 0.045, 0.355, 1)`](https://cubic-bezier.com/#0.645,0.045,0.355,1)
+[`cubic-bezier(0.645, 0.045, 0.355, 1)`](https://cubic-bezier.com/#.645,.045,.355,1)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -152,7 +152,7 @@ import { easeOutQuad } from 'easings-css';
  
 ### easeInQuart
 
-[`cubic-bezier(0.895, 0.03, 0.685, 0.22)`](https://cubic-bezier.com/#0.895,0.03,0.685,0.22)
+[`cubic-bezier(0.895, 0.03, 0.685, 0.22)`](https://cubic-bezier.com/#.895,.03,.685,.22)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -160,7 +160,7 @@ import { easeOutQuad } from 'easings-css';
 
 ### easeOutQuart
 
-[`cubic-bezier(0.165, 0.84, 0.44, 1)`](https://cubic-bezier.com/#0.165,0.84,0.44,1)
+[`cubic-bezier(0.165, 0.84, 0.44, 1)`](https://cubic-bezier.com/#.165,.84,.44,1)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -168,7 +168,7 @@ import { easeOutQuad } from 'easings-css';
 
 ### easeInOutQuart
 
-[`cubic-bezier(0.77, 0, 0.175, 1)`](https://cubic-bezier.com/#0.77,0,0.175,1)
+[`cubic-bezier(0.77, 0, 0.175, 1)`](https://cubic-bezier.com/#.77,0,.175,1)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -176,7 +176,7 @@ import { easeOutQuad } from 'easings-css';
  
 ### easeInQuint
 
-[`cubic-bezier(0.755, 0.05, 0.855, 0.06)`](https://cubic-bezier.com/#0.755,0.05,0.855,0.06)
+[`cubic-bezier(0.755, 0.05, 0.855, 0.06)`](https://cubic-bezier.com/#.755,.05,.855,.06)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -184,7 +184,7 @@ import { easeOutQuad } from 'easings-css';
 
 ### easeOutQuint
 
-[`cubic-bezier(0.23, 1, 0.32, 1)`](https://cubic-bezier.com/#0.23,1,0.32,1)
+[`cubic-bezier(0.23, 1, 0.32, 1)`](https://cubic-bezier.com/#.23,1,.32,1)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -192,7 +192,7 @@ import { easeOutQuad } from 'easings-css';
 
 ### easeInOutQuint
 
-[`cubic-bezier(0.86, 0, 0.07, 1)`](https://cubic-bezier.com/#0.86,0,0.07,1)
+[`cubic-bezier(0.86, 0, 0.07, 1)`](https://cubic-bezier.com/#.86,0,.07,1)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -200,7 +200,7 @@ import { easeOutQuad } from 'easings-css';
 
 ### easeInExpo
 
-[`cubic-bezier(0.95, 0.05, 0.795, 0.035)`](https://cubic-bezier.com/#0.95,0.05,0.795,0.035)
+[`cubic-bezier(0.95, 0.05, 0.795, 0.035)`](https://cubic-bezier.com/#.95,.05,.795,.035)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -208,7 +208,7 @@ import { easeOutQuad } from 'easings-css';
 
 ### easeOutExpo
 
-[`cubic-bezier(0.19, 1, 0.22, 1)`](https://cubic-bezier.com/#0.19,1,0.22,1)
+[`cubic-bezier(0.19, 1, 0.22, 1)`](https://cubic-bezier.com/#.19,1,.22,1)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -224,7 +224,7 @@ import { easeOutQuad } from 'easings-css';
 
 ### easeInCirc
 
-[`cubic-bezier(0.6, 0.04, 0.98, 0.335)`](https://cubic-bezier.com/#0.6,0.04,0.98,0.335)
+[`cubic-bezier(0.6, 0.04, 0.98, 0.335)`](https://cubic-bezier.com/#.6,.04,.98,.335)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -232,7 +232,7 @@ import { easeOutQuad } from 'easings-css';
 
 ### easeOutCirc
 
-[`cubic-bezier(0.075, 0.82, 0.165, 1)`](https://cubic-bezier.com/#0.075,0.82,0.165,1)
+[`cubic-bezier(0.075, 0.82, 0.165, 1)`](https://cubic-bezier.com/#.075,.82,.165,1)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -240,7 +240,7 @@ import { easeOutQuad } from 'easings-css';
 
 ### easeInOutCirc
 
-[`cubic-bezier(0.785, 0.135, 0.15, 0.86)`](https://cubic-bezier.com/#0.785,0.135,0.15,0.86)
+[`cubic-bezier(0.785, 0.135, 0.15, 0.86)`](https://cubic-bezier.com/#.785,.135,.15,.86)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -248,7 +248,7 @@ import { easeOutQuad } from 'easings-css';
    
 ### easeInBack
 
-[`cubic-bezier(0.6, -0.28, 0.735, 0.045)`](https://cubic-bezier.com/#0.6,-0.28,0.735,0.045)
+[`cubic-bezier(0.6, -0.28, 0.735, 0.045)`](https://cubic-bezier.com/#.6,-.28,.735,.045)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -256,7 +256,7 @@ import { easeOutQuad } from 'easings-css';
 
 ### easeOutBack
 
-[`cubic-bezier(0.175, 0.885, 0.32, 1.275)`](https://cubic-bezier.com/#0.175,0.885,0.32,1.275)
+[`cubic-bezier(0.175, 0.885, 0.32, 1.275)`](https://cubic-bezier.com/#.175,.885,.32,1.275)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
@@ -264,7 +264,7 @@ import { easeOutQuad } from 'easings-css';
 
 ### easeInOutBack
 
-[`cubic-bezier(0.68, -0.55, 0.265, 1.55)`](https://cubic-bezier.com/#0.68,-0.55,0.265,1.55)
+[`cubic-bezier(0.68, -0.55, 0.265, 1.55)`](https://cubic-bezier.com/#.68,-.55,.265,1.55)
 
 | CSS | LESS | SASS | JS |
 | --- | ---- | ---- | -- |
