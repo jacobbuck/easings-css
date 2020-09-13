@@ -34,11 +34,11 @@ Available as CSS Custom Properties, JSON object, and JavaScript, Less and Sass v
 
 ### SASS
 
-```less
+```scss
 @import 'easings-css';
 ```
 
-> :warning: If you're not using [postcss-import](https://github.com/postcss/postcss-import) or similar to automatically resolve `node_modules`, you'll need to manually resolve to the path: `node_modules/easings-css`.
+> :warning: If you don't have `node_modules` automatically resolved, you'll need to manually resolve to the path: `node_modules/easings-css`.
 
 ```scss
 .example {
