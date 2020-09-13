@@ -2,8 +2,9 @@
   "name": "easings-css",
   "version": "1.0.0",
   "description": "Easing functions for CSS.",
-  "main": "easings.json",
+  "main": "index.json",
   "scripts": {
+    "build": "node ./build",
     "format": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
