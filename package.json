@@ -22,13 +22,15 @@
   },
   "keywords": [
     "animation",
+    "animation-timing-function",
     "css",
     "easings",
     "less",
     "sass",
     "scss",
     "timing-function",
-    "transition"
+    "transition",
+    "transition-timing-function"
   ],
   "author": "Jacob Buck <buck.jacob@gmail.com>",
   "license": "MIT",
