@@ -16,7 +16,7 @@ Available as CSS Custom Properties, JSON object, and JavaScript, Less and Sass v
 
 ```css
 .example {
-  transition-timing: var(--ease-out-quad);
+  transition-timing-function: var(--ease-out-quad);
 }
 ```
 
@@ -28,7 +28,7 @@ Available as CSS Custom Properties, JSON object, and JavaScript, Less and Sass v
 
 ```less
 .example {
-  transition-timing: @ease-out-quad;
+  transition-timing-function: @ease-out-quad;
 }
 ```
 
@@ -42,7 +42,7 @@ Available as CSS Custom Properties, JSON object, and JavaScript, Less and Sass v
 
 ```scss
 .example {
-  transition-timing: $ease-out-quad;
+  transition-timing-function: $ease-out-quad;
 }
 ```
 
@@ -54,7 +54,7 @@ const easings = require('easings-css');
 
 ```js
 const Example = styled.div`
-  transition-timing: ${easings.easeOutQuad};
+  transition-timing-function: ${easings.easeOutQuad};
 `;
 ```
 
@@ -66,7 +66,7 @@ import * as easings from 'easings-css';
 
 ```js
 const Example = styled.div`
-  transition-timing: ${easeOutQuad};
+  transition-timing-function: ${easeOutQuad};
 `;
 ```
 
