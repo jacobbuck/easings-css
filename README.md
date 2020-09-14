@@ -2,7 +2,7 @@
 
 Provides [easing functions](http://easings.net/) for CSS.
 
-Available as CSS Custom Properties, JSON object, and JavaScript, Less and Sass variables.
+Available as CSS Custom Properties, JavaScript modules, JSON object and Less and Sass variables.
 
 ## Usage
 
