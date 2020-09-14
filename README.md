@@ -64,16 +64,16 @@ const Example = styled.div`
 import * as easings from 'easings-css';
 ```
 
-```js
-const Example = styled.div`
-  transition-timing-function: ${easeOutQuad};
-`;
-```
-
 You can also import individual easings for better tree-shaking:
 
 ```js
 import { easeOutQuad } from 'easings-css';
+```
+
+```js
+const Example = styled.div`
+  transition-timing-function: ${easeOutQuad};
+`;
 ```
 
 ## Easings
