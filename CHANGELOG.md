@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- Updated `index.json` output to match `index.js` and [README.md](./README.md).
+
 ## v2.0.0 - 2020-09-13
 
 ### Added
