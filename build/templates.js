@@ -23,10 +23,7 @@ const js = (easings) =>
 const json = (easings) =>
   '{' +
   Object.entries(easings)
-    .flatMap(([name, value]) => [
-      `"${name}": "${value}"`,
-      `"${kebabCase(name)}": "${value}"`,
-    ])
+    .map(([name, value]) => `"${name}": "${value}"`)
     .join(',') +
   '}';
 
