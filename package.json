@@ -1,6 +1,6 @@
 {
   "name": "easings-css",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Easing functions for CSS, provided as CSS Custom Properties, JavaScript modules, JSON object and Less and Sass variables.",
   "main": "index.json",
   "module": "index.js",
