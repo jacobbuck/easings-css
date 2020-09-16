@@ -15,6 +15,6 @@ for (const [file, template, type] of outputs) {
   const data = prettier.format(template(easings), { parser: type });
   fs.writeFile(file, data, (error) => {
     if (error) throw error;
-    console.log(`📝 ${file} was written.`);
+    console.info(`📝 ${file} was written.`);
   });
 }
