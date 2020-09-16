@@ -1,12 +1,11 @@
 const fs = require('fs');
 const prettier = require('prettier');
-const easings = require('./easings.json');
+const easings = require('../index.json');
 const templates = require('./templates');
 
 const outputs = [
   ['index.css', templates.css, 'css'],
   ['index.js', templates.js, 'babel'],
-  ['index.json', templates.json, 'json'],
   ['index.less', templates.less, 'less'],
   ['_index.scss', templates.scss, 'scss'],
 ];

@@ -20,13 +20,6 @@ const js = (easings) =>
   Object.keys(easings).join(',') +
   '}';
 
-const json = (easings) =>
-  '{' +
-  Object.entries(easings)
-    .map(([name, value]) => `"${name}": "${value}"`)
-    .join(',') +
-  '}';
-
 const less = (easings) =>
   Object.entries(easings)
     .flatMap(([name, value]) => [
@@ -43,4 +36,4 @@ const scss = (easings) =>
     ])
     .join('');
 
-module.exports = { css, js, json, less, scss };
+module.exports = { css, js, less, scss };
