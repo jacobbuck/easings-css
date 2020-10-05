@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- Changed import of fs Promises API in build script for Node LTS compatibility.
+
 ## v2.0.2 - 2020-10-05
 
 ### Added
