@@ -8,7 +8,8 @@
 
 ### Changed
 
-- Use index.json to build CSS, LESS, JS and SCSS.
+- Changed build to use index.json and removed JSON build.
+- Updated devDependencies.
 
 ## v2.0.1 - 2020-09-14
 
