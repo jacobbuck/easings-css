@@ -1,5 +1,15 @@
 # Changelog
 
+## Unreleased
+
+### Added
+
+- Added prepare script for automatic builds.
+
+### Changed
+
+- Use index.json to build CSS, LESS, JS and SCSS.
+
 ## v2.0.1 - 2020-09-14
 
 ### Changed
