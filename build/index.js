@@ -1,4 +1,4 @@
-const fs = require('fs/promises');
+const fs = require('fs').promises;
 const prettier = require('prettier');
 const easings = require('../index.json');
 const templates = require('./templates');
