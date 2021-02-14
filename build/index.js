@@ -3,37 +3,38 @@ const prettier = require('prettier');
 const easings = require('../index.json');
 const templates = require('./templates');
 
-(async function () {
-  const outputs = [
-    ['index.css', templates.css, 'css'],
-    ['index.js', templates.js, 'babel'],
-    ['index.less', templates.less, 'less'],
-    ['_index.scss', templates.scss, 'scss'],
-  ];
+const outputs = [
+  // filename, template, babel parser
+  ['index.css', templates.css, 'css'],
+  ['index.js', templates.js, 'babel'],
+  ['index.less', templates.less, 'less'],
+  ['_index.scss', templates.scss, 'scss'],
+];
 
-  const options = await prettier.resolveConfig(__dirname);
+(async function () {
+  const prettierOptions = await prettier.resolveConfig(__dirname);
 
   const written = await Promise.all(
-    outputs.map(async ([file, template, type]) => {
+    outputs.map(async ([filename, template, parser]) => {
       try {
         const data = prettier.format(template(easings), {
-          ...options,
-          parser: type,
+          ...prettierOptions,
+          parser,
         });
-        await fs.writeFile(file, data);
-        return { file };
+        await fs.writeFile(filename, data);
+        return { filename };
       } catch (error) {
-        return { error, file };
+        return { error, filename };
       }
     })
   );
 
-  written.forEach(({ error, file }) => {
+  written.forEach(({ error, filename }) => {
     if (error) {
-      console.info(`🛑 There was an issue building "${file}":`);
+      console.info(`🛑 There was an issue building "${filename}":`);
       console.error(error);
     } else {
-      console.info(`📝 "${file}" created sucessfully!`);
+      console.info(`📝 "${filename}" created sucessfully!`);
     }
   });
 })();
