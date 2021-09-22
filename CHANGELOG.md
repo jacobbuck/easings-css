@@ -15,7 +15,7 @@
 ### Changed
 
 - Changed build to use index.json and removed JSON build.
-- Updated devDependencies.
+- Updated devDependencies, including prettier to v2.1.2.
 
 ## v2.0.1 - 2020-09-14
 
