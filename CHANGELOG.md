@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- **BREAKING** Removed camel-case CSS custom properties from `index.css`.
+
 ## v2.0.3 - 2020-10-05
 
 ### Changed
@@ -15,7 +21,7 @@
 ### Changed
 
 - Changed build to use index.json and removed JSON build.
-- Updated devDependencies.
+- Updated devDependencies, including prettier to v2.1.2.
 
 ## v2.0.1 - 2020-09-14
 
