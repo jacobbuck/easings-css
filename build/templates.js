@@ -5,10 +5,7 @@ const kebabCase = (string) =>
 const css = (easings) =>
   ':root {' +
   Object.entries(easings)
-    .flatMap(([name, value]) => [
-      `--${name}: ${value};`,
-      `--${kebabCase(name)}: ${value};`,
-    ])
+    .map(([name, value]) => `--${kebabCase(name)}: ${value};`)
     .join('') +
   '}';
 
