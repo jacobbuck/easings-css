@@ -4,11 +4,11 @@ const easings = require('../index.json');
 const templates = require('./templates');
 
 const outputs = [
-  // filename, template, babel parser
+  // filename, template, prettier parser
   ['index.css', templates.css, 'css'],
   ['index.js', templates.js, 'babel'],
   ['index.less', templates.less, 'less'],
-  ['_index.scss', templates.scss, 'scss'],
+  ['_easings.scss', templates.scss, 'scss'],
 ];
 
 (async function () {

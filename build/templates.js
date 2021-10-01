@@ -11,11 +11,8 @@ const css = (easings) =>
 
 const js = (easings) =>
   Object.entries(easings)
-    .map(([name, value]) => `const ${name} = '${value}';`)
-    .join('') +
-  'export {' +
-  Object.keys(easings).join(',') +
-  '}';
+    .map(([name, value]) => `export const ${name} = '${value}';`)
+    .join('');
 
 const less = (easings) =>
   Object.entries(easings)

@@ -6,6 +6,22 @@
 
 - **BREAKING** Removed camel-case CSS custom properties from `index.css`.
 
+## v2.1.1 - 2021-10-01
+
+### Added
+
+- Set `"sideEffects": false` in [package.json](./package.json).
+
+## v2.1.0 - 2021-10-01
+
+### Added
+
+- Added `_easings.scss` file to support Sass prior to v3.6.0.
+
+### Changes
+
+- Size reductions of `index.js` file.
+
 ## v2.0.3 - 2020-10-05
 
 ### Changed
