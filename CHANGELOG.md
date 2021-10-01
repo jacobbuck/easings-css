@@ -6,6 +6,10 @@
 
 - Added `_easings.scss` file to support Sass prior to v3.6.0.
 
+### Changes
+
+- Size reductions of `index.js` file.
+
 ## v2.0.3 - 2020-10-05
 
 ### Changed
