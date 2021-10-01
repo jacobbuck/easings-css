@@ -12,6 +12,7 @@
     "index.json",
     "index.less"
   ],
+  "sideEffects": false,
   "scripts": {
     "build": "node ./build",
     "format": "prettier --write .",
