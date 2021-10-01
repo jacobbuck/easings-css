@@ -8,9 +8,6 @@ const outputs = [
   ['index.css', templates.css, 'css'],
   ['index.js', templates.js, 'babel'],
   ['index.less', templates.less, 'less'],
-  // Sass v3.6.0 or newer
-  ['_index.scss', templates.scss, 'scss'],
-  // Sass older than v3.6.0
   ['_easings.scss', templates.scss, 'scss'],
 ];
 
