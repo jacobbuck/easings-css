@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Added
+
+- Added `_easings.scss` file to support Sass prior to v3.6.0.
+
 ## v2.0.3 - 2020-10-05
 
 ### Changed
