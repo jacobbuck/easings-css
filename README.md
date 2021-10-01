@@ -34,11 +34,17 @@ Available as CSS Custom Properties, JavaScript modules, JSON object and Less and
 
 ### SASS
 
+For Sass v3.6.0 and newer:
+
 ```scss
-@import 'easings-css';
+@import 'node_modules/easings-css';
 ```
 
-> :warning: If you don't have `node_modules` automatically resolved, you'll need to manually resolve to the path: `node_modules/easings-css`.
+For all other versions:
+
+```scss
+@import 'node_modules/easings-css/easings';
+```
 
 ```scss
 .example {
