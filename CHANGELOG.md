@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.1 - 2021-10-01
+
+### Added
+
+- Set `"sideEffects": false` in [package.json](./package.json).
+
 ## v2.1.0 - 2021-10-01
 
 ### Added
